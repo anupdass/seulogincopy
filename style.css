@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.login-wrapper{
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.5)) ,url("http://iccit.org.bd/2019/wp-content/uploads/2019/05/seu-campus.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login{
+    background-color: white;
+    width: 384px;
+    height: 85%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 8px 10px -5px rgb(0 0 0 / 20%), 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.login img{
+    width: 50%;
+}
+
+.heading h3{
+    color:rgba(97, 94, 94, 0.87);
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.input-group input{
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+.login-btn{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 7px;
+    background-color: rgb(47, 180, 241);
+    border-radius: 5px;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+}
+.last{
+    margin-top: 15px;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(47, 180, 241);
+}
+
+::placeholder{
+    font-size: 16px;
+}
